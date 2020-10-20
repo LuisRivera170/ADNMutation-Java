@@ -42,13 +42,6 @@ public class ADN {
         return false;
     }
     
-    public static void printSequence(char... sequence) {
-        for (int i = 0; i < sequence.length; i++) {
-            System.out.print(sequence[i] + " ");
-        }
-        System.out.print("\n");
-    }
-    
     public static boolean checkSequence(char... sequence) {
         for (int i = 1; i < sequence.length; i++) { 
             if (sequence[0] != sequence[i]) return false;
